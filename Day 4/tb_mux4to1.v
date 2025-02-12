@@ -29,7 +29,7 @@ always #10 S1 = ~ S1;
 initial begin
     I0 = 0; I1 = 0; I2 = 0; I3 = 0; S0 = 0; S1 = 0;
 
-    #1500 $finish;
+    #500 $finish;
 end
     
 endmodule
